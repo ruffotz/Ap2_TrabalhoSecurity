@@ -1,0 +1,8 @@
+services:
+  postgresql1:
+      image: postgres
+      environment:
+        POSTGRES_USER: gustavoruffo
+        POSTGRES_PASSWORD: ruffo
+      ports:
+        - 5432:5432
